@@ -1,4 +1,6 @@
 Adeltawave::Application.routes.draw do
+  resources :goods
+
   resources :categories
 
   resources :users
